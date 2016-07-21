@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="17" tilewidth="16" tileheight="16" nextobjectid="23">
+ <tileset firstgid="1" name="tileSet" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="tileSet.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Background" width="100" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt1Dc3pWEUhmFhhCllSiOXMqVsSplSppRmKA0Gpcy/df2Hz7sPx3evdfV77eIpKcnL+9hKKaOcH1RQSRXV/Czcad+yGmqpo54GGmmimZbCnfYta+UXbbTTQSdddNNTuNM+fSm2pZc++hlgkCGGGWE089WxRe5vim0ZY5wJJplimhlm+Z356tgi9zfFtswxzwKLLLHMCqusZb46tsj9TbEt62ywyRbb7LDLHvuZr44tcn9TbMsBhxxxzAl/+MspZ5mvji1yf1Nsyzn/uOCSK/5zzQ23ma+OLXJ/U2zLHfc88MgTz7zwylvmq2OL3N9i25YURf6o2LYlRZE/KrZtSVH+o7y8vK/QO8g1UTc=
+  </data>
+ </layer>
+ <layer name="Ground" width="100" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEOACAIBDD/v/hlVzdDgqKmTdjhjtYAAAAA+EUPDPki+etnn4xcM7t8ufsbb6vsZnVT9S4v/lhUdXa/5HjKnNcABiBx9Q==
+  </data>
+ </layer>
+ <objectgroup name="Coins">
+  <object id="1" x="224" y="208" width="16" height="16"/>
+  <object id="2" x="400" y="192" width="16" height="16"/>
+  <object id="3" x="560" y="176" width="16" height="16"/>
+  <object id="4" x="768" y="144" width="16" height="16"/>
+  <object id="5" x="992" y="176" width="16" height="16"/>
+  <object id="6" x="1232" y="176" width="16" height="16"/>
+  <object id="7" x="1424" y="192" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="EndObject">
+  <object id="9" name="Flag" x="1568" y="160" width="32" height="80"/>
+ </objectgroup>
+ <objectgroup name="GroundObjects">
+  <object id="10" x="0" y="240" width="384" height="16"/>
+  <object id="11" x="384" y="224" width="272" height="16"/>
+  <object id="12" x="656" y="208" width="48" height="16"/>
+  <object id="13" x="688" y="192" width="80" height="16"/>
+  <object id="14" x="752" y="176" width="176" height="16"/>
+  <object id="15" x="928" y="192" width="64" height="16"/>
+  <object id="16" x="992" y="208" width="432" height="16"/>
+  <object id="17" x="1424" y="224" width="128" height="16"/>
+  <object id="18" x="1552" y="240" width="48" height="16"/>
+ </objectgroup>
+ <objectgroup name="PowerUps">
+     <object id="56" name="Fire" x="480" y="176" width="16" height="16"/>
+ </objectgroup>
+</map>

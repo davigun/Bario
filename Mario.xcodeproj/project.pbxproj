@@ -16,6 +16,12 @@
 		634A8E021D407FCE00795B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634A8E001D407FCE00795B90 /* LaunchScreen.storyboard */; };
 		634A8E0D1D407FCE00795B90 /* MarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8E0C1D407FCE00795B90 /* MarioTests.swift */; };
 		634A8E181D407FCE00795B90 /* MarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8E171D407FCE00795B90 /* MarioUITests.swift */; };
+		634A8E2A1D40810300795B90 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A8E271D40810300795B90 /* JSTileMap.m */; };
+		634A8E2B1D40810300795B90 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A8E291D40810300795B90 /* LFCGzipUtility.m */; };
+		634A8E2D1D40818E00795B90 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 634A8E2C1D40818E00795B90 /* level1.tmx */; };
+		634A8E2F1D40821D00795B90 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A8E2E1D40821D00795B90 /* libz.tbd */; };
+		634A8E311D40825600795B90 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A8E301D40825600795B90 /* tileSet.png */; };
+		634A8E331D40BDA300795B90 /* level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 634A8E321D40BDA300795B90 /* level2.tmx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		634A8E131D407FCE00795B90 /* MarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634A8E171D407FCE00795B90 /* MarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioUITests.swift; sourceTree = "<group>"; };
 		634A8E191D407FCE00795B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634A8E251D40810300795B90 /* Mario-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mario-Bridging-Header.h"; sourceTree = "<group>"; };
+		634A8E261D40810300795B90 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		634A8E271D40810300795B90 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		634A8E281D40810300795B90 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		634A8E291D40810300795B90 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		634A8E2C1D40818E00795B90 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		634A8E2E1D40821D00795B90 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		634A8E301D40825600795B90 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
+		634A8E321D40BDA300795B90 /* level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level2.tmx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A8E2F1D40821D00795B90 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 		634A8DE71D407FCE00795B90 = {
 			isa = PBXGroup;
 			children = (
+				634A8E2E1D40821D00795B90 /* libz.tbd */,
 				634A8DF21D407FCE00795B90 /* Mario */,
 				634A8E0B1D407FCE00795B90 /* MarioTests */,
 				634A8E161D407FCE00795B90 /* MarioUITests */,
@@ -101,6 +118,13 @@
 		634A8DF21D407FCE00795B90 /* Mario */ = {
 			isa = PBXGroup;
 			children = (
+				634A8E301D40825600795B90 /* tileSet.png */,
+				634A8E2C1D40818E00795B90 /* level1.tmx */,
+				634A8E321D40BDA300795B90 /* level2.tmx */,
+				634A8E261D40810300795B90 /* JSTileMap.h */,
+				634A8E271D40810300795B90 /* JSTileMap.m */,
+				634A8E281D40810300795B90 /* LFCGzipUtility.h */,
+				634A8E291D40810300795B90 /* LFCGzipUtility.m */,
 				634A8DF31D407FCE00795B90 /* AppDelegate.swift */,
 				634A8DF51D407FCE00795B90 /* GameScene.sks */,
 				634A8DF71D407FCE00795B90 /* GameScene.swift */,
@@ -109,6 +133,7 @@
 				634A8DFE1D407FCE00795B90 /* Assets.xcassets */,
 				634A8E001D407FCE00795B90 /* LaunchScreen.storyboard */,
 				634A8E031D407FCE00795B90 /* Info.plist */,
+				634A8E251D40810300795B90 /* Mario-Bridging-Header.h */,
 			);
 			path = Mario;
 			sourceTree = "<group>";
@@ -238,9 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A8E2D1D40818E00795B90 /* level1.tmx in Resources */,
 				634A8DF61D407FCE00795B90 /* GameScene.sks in Resources */,
+				634A8E331D40BDA300795B90 /* level2.tmx in Resources */,
 				634A8E021D407FCE00795B90 /* LaunchScreen.storyboard in Resources */,
 				634A8DFF1D407FCE00795B90 /* Assets.xcassets in Resources */,
+				634A8E311D40825600795B90 /* tileSet.png in Resources */,
 				634A8DFD1D407FCE00795B90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				634A8DF81D407FCE00795B90 /* GameScene.swift in Sources */,
+				634A8E2B1D40810300795B90 /* LFCGzipUtility.m in Sources */,
 				634A8DFA1D407FCE00795B90 /* GameViewController.swift in Sources */,
 				634A8DF41D407FCE00795B90 /* AppDelegate.swift in Sources */,
+				634A8E2A1D40810300795B90 /* JSTileMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Mario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Davidgun.Mario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mario/Mario-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -423,10 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Mario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Davidgun.Mario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mario/Mario-Bridging-Header.h";
 			};
 			name = Release;
 		};
